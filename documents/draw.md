@@ -1,5 +1,11 @@
 # 화면 출력 및 그리기 관련 명령들
 
+## COLOR
+
+```
+COLOR <ForegroundColor>,<BackgroundColor>,<BorderColor>
+```
+
 ## SCREEN
 
 - <https://www.msx.org/wiki/SCREEN>
@@ -7,6 +13,10 @@
 ```
 screen 1, 2 
 ```
+
+### screen 12
+
+
 
 ### 스프라이트 모드
 
@@ -21,6 +31,10 @@ screen 1, 2
 
 - <https://www.msx.org/wiki/PUT_SPRITE>
 -  Note that the maximum of sprites on the same horizontal line is limited to 4 on screens 1 to 3, to 8 on screens 4 to 8 and 10 to 12.
+
+```
+PUT SPRITE <SpriteNumber>,STEP(<X>,<Y>),<Color>,<PatternNumber>
+```
 
 ## CIRCLE
 
