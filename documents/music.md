@@ -7,7 +7,12 @@
 
 ## Panasonic FS-CA1
 
-- Basic에서 Call audio를 지원
+- Basic에서 `Call audio`를 지원
+
+## FM-PAC
+
+- Basic에서 `call music`을 지원
+- call audio가 더 소리는 좋지만 FM-PAC 쪽이 범용성이 좋다.
 
 ## 연습하기
 
