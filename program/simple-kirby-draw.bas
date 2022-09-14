@@ -1,11 +1,11 @@
 1 REM KIRBY SIGN BY HODOC
 2 SCREEN 1:COLOR 15,4,7: CLS
 3 PRINT "***********************"
-4 PRINT "* GUDAK LOTTO PROGRAM *"
-5 PRINT "*             BY HODOC*"
-6 PRINT "***********************"
-7 PRINT ""
-8 INPUT "HOW MANY"; A
+4 PRINT "* SIMPLE KIRBY DRAW   *"
+5 PRINT "*            BY HODOL *"
+6 PRINT "*  (CAPTURE: ALT + G) *"
+7 PRINT "***********************"
+8 INPUT "INPUT MAX NUM AND ENTER "; A
 9 N=INT(RND(-TIME)*A+1)
 15 SCREEN 4,3,0: color 1,15,14: CLS
 20 REM color 1
@@ -88,6 +88,8 @@
 800 OPEN "GRP:"AS#1
 810 PSET(100,52)
 820 PRINT #1,"WIN:";N
+830 pset(70,140)
+840 print #1,"PRESS ANY KEY..."
 850 Z$=INPUT$(1)
 860 END
 900 REM -- DRAW 2
