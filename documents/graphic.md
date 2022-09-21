@@ -41,7 +41,19 @@ PUT SPRITE <SpriteNumber>,STEP(<X>,<Y>),<Color>,<PatternNumber>
 - 동그라미를 그리는 명령
 - https://www.msx.org/wiki/CIRCLE
 
+## LINE
+
+- 선을 그리는 명령
+
+```basic
+LINE STEP(<X1>,<Y1>)-STEP(<X2>,<Y2>),<Color>,<Shape>,<Operator>
+LINE -STEP(<X2>,<Y2>),<Color>,<Shape>,<Operator>
+```
+
 ## PAINT
+
+- 색을 칠하는 명령
+
 
 ## 스프라이트 에디터
 
