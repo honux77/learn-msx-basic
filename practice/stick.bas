@@ -1,0 +1,6 @@
+10 PRINT "Press the cursor keys"
+20 A = STICK(0)
+30 B = STRIG(0)
+50 PRINT A,B
+60 IF B=-1 THEN END
+70 GOTO 20

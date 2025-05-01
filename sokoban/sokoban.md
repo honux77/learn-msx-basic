@@ -1,5 +1,9 @@
 # MSX BASIC SOKOBAN
 
+## 참고자료
+
+- https://github.com/plattysoft/Modern-MSX-BASIC-Game-Dev
+
 ## 키 입력 확인하기
 
 https://www.msx.org/wiki/INKEY$
