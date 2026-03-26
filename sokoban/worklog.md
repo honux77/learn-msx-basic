@@ -74,6 +74,10 @@ Default output:
 
 - `disk/sokoban-built.dsk`
 
+WebMSX launch link:
+
+- <https://webmsx.org/?DISKA_URL=https://raw.githubusercontent.com/honux77/learn-msx-basic/master/disk/sokoban-built.dsk>
+
 ## Finish State
 
 - `sokoban.bas` is the baseline to keep using.
